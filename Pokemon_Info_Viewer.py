@@ -105,21 +105,21 @@ def main():
     height_label.grid(row=0, column=0, padx=(10,5), pady=(10,5), sticky=E)
 
     value_height_label = ttk.Label(info_frame, width=15)
-    value_height_label.grid(row=0, column=1, sticky=W)
+    value_height_label.grid(row=0, column=1, pady=(10,5), sticky=W)
 
     #weight info
     weight_label = ttk.Label(info_frame, text='Weight:')
     weight_label.grid(row=1, column=0, padx=(10,5), pady=5, sticky=E)
 
     value_weight_label = ttk.Label(info_frame, width=15)
-    value_weight_label.grid(row=1, column=1, sticky=W)
+    value_weight_label.grid(row=1, column=1, pady=5, sticky=W)
 
     #type info
     type_label = ttk.Label(info_frame, text='Type:')
     type_label.grid(row=3, column=0, padx=(10,5), pady=(5,10), sticky=E)
 
     value_type_label = ttk.Label(info_frame, width=15)
-    value_type_label.grid(row=3, column=1, sticky=W)
+    value_type_label.grid(row=3, column=1, pady=(5,10), sticky=W)
 
     #instantiate all labels and progress bars for the stats frame
     #hp stats
